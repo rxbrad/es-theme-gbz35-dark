@@ -1,6 +1,6 @@
 <!--
 theme name:     Gameboy Zero 3.5" - Dark Version
-version:        1.12
+version:        1.13
 author:         Brad Miller
 email:          brad@rxbrad.com
 website:        RxBrad.com
@@ -67,7 +67,7 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 			<selectorColor>000000</selectorColor>
 			<selectedColor>FFFFFF</selectedColor>
 			<primaryColor>BBBBBB</primaryColor>
-			<secondaryColor>CFCFCF</secondaryColor>
+			<secondaryColor>ffff80</secondaryColor>
 			<fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
 			<pos>0.03 0.19</pos>
 			<size>0.937 0.69</size>
@@ -141,7 +141,7 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 		<selectorColor>000000</selectorColor>
 		<selectedColor>FFFFFF</selectedColor>
 		<primaryColor>BBBBBB</primaryColor>
-		<secondaryColor>CFCFCF</secondaryColor>
+		<secondaryColor>ffff80</secondaryColor>
 		<fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
 		<pos>0.39 0.03</pos>
 		<size>0.577 0.86</size>
