@@ -15,7 +15,7 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 	<feature supported="carousel">
 		<view name="system">
 			<carousel name="systemcarousel">
-				<color>000000aa</color>
+				<color>000000cc</color>
 			</carousel>
 
 			<text name="systemInfo">
