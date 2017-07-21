@@ -1,6 +1,6 @@
 <!--
 theme name:     Gameboy Zero 3.5" - Dark Version
-version:        1.13
+version:        1.14
 author:         Brad Miller
 email:          brad@rxbrad.com
 website:        RxBrad.com
@@ -11,6 +11,21 @@ based on:       "Spare" by Matt Kennedy and "SimpleBigArt" by Ewzzy
 <theme>
 
     <formatVersion>4</formatVersion>
+	
+	<feature supported="carousel">
+		<view name="system">
+			<carousel name="systemcarousel">
+				<color>000000aa</color>
+			</carousel>
+
+			<text name="systemInfo">
+				<backgroundColor>11111199</backgroundColor>
+				<color>FFFFFF</color>
+				<fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
+				<fontSize>0.045</fontSize>
+			</text>
+		</view>
+	</feature>
 
     <view name="system, basic, detailed, video">
 		<image name="background_color" extra="true">
