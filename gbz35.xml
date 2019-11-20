@@ -73,6 +73,13 @@ based on:       "Carbon" by Rookervik, "Spare" by Matt Kennedy, and "SimpleBigAr
 			<pos>0.5 0.02</pos>
 			<maxSize>1 0.12</maxSize>
 		</image>
+		<text name="logoText">
+			<origin>0.5 0</origin>
+			<pos>0.5 0.02</pos>
+			<size>1 0.12</size>
+			<fontSize>0.12</fontSize>
+			<color>ffffff</color>
+		</text>
 		<image name="gamelist_background" extra="true">
 			<path>./_inc/images/bg_color.png</path>
 			<origin>0.5 0</origin>
@@ -149,10 +156,19 @@ based on:       "Carbon" by Rookervik, "Spare" by Matt Kennedy, and "SimpleBigAr
 	</image>
 
 	<image name="logo">
-		<origin>0 0</origin>
-		<pos>0.03 0.04</pos>
+		<origin>0.5 0</origin>
+		<pos>0.195 0.04</pos>
 		<maxSize>0.325 0.16</maxSize>
 	</image>
+	
+	<text name="logoText">
+		<origin>0.5 0</origin>
+		<pos>0.195 0.04</pos>
+		<size>0.325 0.16</size>
+		<fontSize>0.08</fontSize>
+		<lineSpacing>1</lineSpacing>
+		<color>ffffff</color>
+	</text>
 	
 	<textlist name="gamelist">
 		<selectorColor>000000</selectorColor>
@@ -189,8 +205,20 @@ based on:       "Carbon" by Rookervik, "Spare" by Matt Kennedy, and "SimpleBigAr
 	</image>
 	
 	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+		<pos>1 1</pos>
+	</text>
+	
+	<text name="md_rating, md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_description, md_name">
     <pos>1 1</pos>
 	</text>
+	
+	<rating name="md_rating">
+    <pos>1 1</pos>
+	</rating>
+	
+	<datetime name="md_releasedate, md_lastplayed">
+    <pos>1 1</pos>
+	</datetime>
 	
 	</view>
 
