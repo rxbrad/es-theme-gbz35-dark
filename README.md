@@ -6,9 +6,10 @@
 
 This theme pulls heavily from the [Carbon](https://github.com/RetroPie/es-theme-carbon) (controller & system vector art), [Spare](https://github.com/mattrixk/es-theme-spare) (preliminary layout), and [SimpleBigArt](https://github.com/robertybob/es-theme-simplebigart) (preliminary background art) themes.  It is optimized for resolutions up to 640x480 on small 4:3 screens (like the 3.5" screens commonly used in Gameboy Zero builds).  It also works on 16:9 screens but you will notice that the background art is stretched when viewing in this aspect.
 
+
 Changelog
 -----------
-
+- Update Jan 22, 2020: Added Apple II, PS2, Wii, & Xbox. Improved contrast & visibility on some system logos.
 - Update #2 - Jan 20, 2020: Added Nintendo Gamecube, Sega Saturn, SuperGrafx, & Wonderswan Color.
 - Update #1 - Jan 20, 2020: Added blank margins around system logos where EmulationStation was clipping the right edge of the image.
 - Update Jan 8, 2020: Added PC-Engine CD & TurboGrafx CD
@@ -24,19 +25,19 @@ Changelog
 - Update Jul 17, 2017: Added support for video previews (be sure you're on the latest version of RetroPie, and note that the Pi Zero apparently struggles with video previews in RetroPie, so you may only want to scrape videos if you have a Pi2 or Pi3 in your GBZ); fixed Retropie menu screen theme
 - Update Feb 9, 2017: Added dark theme and Dosbox section to theme
 - Update Dec 16, 2016: Added Child-friendly EmulationStation Icon support in the detailed view
-- Update Oct 4, 2016: I tweaked the Basic View to show an 8th game on the screen, and colorized the selected game on the list to match the current system's theme.
+- Update Oct 4, 2016: Tweaked Basic View to show an 8th game on the screen, and colorized the selected game on the list to match the current system's theme.
+
 
 License
 -----------
 Creative Commons CC BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/3.0/
 
+
 Recommended Installation Method
 -----------
-
 Both GBZ35 themes can now be installed directly from RetroPie-Setup (network connectivity required).
 
 Inside RetroPie-Setup, first run "Update RetroPie-Setup script". Then go to Configuration/Tools, then esthemes, and scroll down to find the themes. Once installed, you can exit RetroPie-Setup and apply the theme under UI Settings.
-
 Note that you will need a current installation of RetroPie to use some of the newer features like the Last Played list and video previews. If you have an older version of RetroPie installed and want to enable these features, go back into RetroPie-Setup and choose "Update all installed packages". I typically say yes when it asks me to update underlying OS packages. Then you wait. On a Pi Zero, don't be surprised if this takes a couple hours.
 
 Installation (Obsolete Method using Samba share & Windows PC)
